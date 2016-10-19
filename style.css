@@ -1,0 +1,39 @@
+body {
+	background-color: #1C1904;
+	font-family: Times, Times, serif;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#container {
+	background-color: #A89700;
+	width: 900px;
+	margin: left:auto;
+	margin: right:auto;
+}
+
+#content {
+	background-color: red;
+
+}
+
+#main {
+	text-align: left;
+	background-color: #FFF27C;
+	width: 625px;
+	float: right;
+}
+
+#nav {
+	background-color: #FFF27C;
+	width: 260px;
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	float:left;
+	padding: 0;
+}
