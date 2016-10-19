@@ -32,11 +32,8 @@ body {
 	float: left;
 }
 
-#nav ul {
+nav ul {
 	list-style-type: none;
 	float:left;
 	padding: 0;
-}
-#nav ul li {
-	margin:auto;
 }
