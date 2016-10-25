@@ -26,20 +26,21 @@ h1 {
 #main {
 	text-align: left;
 	background-color: #001B00;
-	width: 625px;
+	width: 695px;
 	float: right;
 	color: white;
 }
 
 #nav	 {
 	background-color: #001B00;
-	width: 260px;
+	width: 185px;
 	float: left;
 	color: white;
 }
 
 #footer {
 	color: white;
+	clear:both;
 }
 
 nav ul {
