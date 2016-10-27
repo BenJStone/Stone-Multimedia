@@ -1,50 +1,50 @@
 body {
 	background-color: #000800;
 	font-family: Times, Times, serif;
-	width: 900px;
-	margin: 0 auto;
-	text-align: center
 }
 
 h1 {
 	color: white;
+	font-family:Freestyle Script, Century, Rockwell;
+	font-size: 40px;
+	text-align: center;
 }
+header h1 {margin: 0;}
 
-#container {
+
+section {
 	background-color: #0E3B0E;
 	width: 900px;
-	margin: left:auto;
-	margin: right:auto;
+	margin:0 auto;
 }
-
-#content {
-	background-color: red;
-
-}
-
 
 #main {
-	text-align: left;
+	display: inline-block;
 	background-color: #001B00;
-	width: 695px;
-	float: right;
+	width: 685px;
 	color: white;
+	margin: 0;
+	padding: 10px;
 }
 
-#nav	 {
-	background-color: #001B00;
-	width: 185px;
-	float: left;
-	color: white;
-}
-
-#footer {
+footer {
 	color: white;
 	clear:both;
+	text-align: center;
 }
 
-nav ul {
-	list-style-type: none;
-	float:left;
-	padding: 0;
+nav {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	border: white;
+	width: 165px;
+	padding: 0px 10px;
+	color: white;
+}
+nav a:hover, nav a.current{
+	background-color: #25AB03;
 }
