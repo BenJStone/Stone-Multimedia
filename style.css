@@ -1,50 +1,85 @@
 body {
-	background-color: #000800;
-	font-family: Times, Times, serif;
-	width: 900px;
-	margin: 0 auto;
-	text-align: center
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000800;
+    font-family: Times, Times, serif;
 }
-
 h1 {
-	color: white;
+    color: white;
+    font-family: Freestyle Script, Century, Rockwell;
+    font-size: 40px;
+    text-align: center;
 }
-
-#container {
-	background-color: #0E3B0E;
-	width: 900px;
-	margin: left:auto;
-	margin: right:auto;
+h3 {
+    color: white;
+    text-decoration: underline;
 }
-
-#content {
-	background-color: red;
-
-}
-
-
-#main {
-	text-align: left;
-	background-color: #001B00;
-	width: 695px;
-	float: right;
-	color: white;
-}
-
-#nav	 {
-	background-color: #001B00;
+nav {
+    float: left;
+    position: relative;
+	overflow:hidden;
 	width: 185px;
-	float: left;
-	color: white;
+	background-color:#001B00;
 }
 
-#footer {
-	color: white;
-	clear:both;
+
+section {
+	background-color:#047600; 
+	width: 900px;
+	margin:0 auto;
 }
 
-nav ul {
-	list-style-type: none;
-	float:left;
-	padding: 0;
+nav a {
+    display: block;
+    text-decoration: none;
+    border: white;
+	color: white;
+}
+nav a:hover,
+nav a.current {
+    background-color: #25AB03;
+}
+#container {
+    width: 900px;
+    text-align: left;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+	width: 100%;
+    display: block;
+    overflow: auto;
+}
+#main {
+    position: relative;
+    float: right;
+    display: inline-block;
+    background-color: #014905;
+    width: 695px;
+    color: white;
+    margin: 0;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+footer {
+    height: 150px;
+    clear: both;
+    display: block;
+    overflow: auto;
+    color: white;
+    text-align: center;
+}
+@media print {
+    nav {
+        display: none;
+    }
+    #main {
+        width: 100%;
+        float: none;
+    }
 }
