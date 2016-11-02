@@ -61,8 +61,10 @@ header {
     margin: 0;
 }
 
+/*Links*/
+a{color:#076FEB;}
 /* visited link */
-a:visited {
+#main a:visited {
     color: hotpink;
 }
 
@@ -83,3 +85,5 @@ footer {
         float: none;
     }
 }
+
+
